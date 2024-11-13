@@ -56,7 +56,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "EC2 keypair"
   type        = string
-  default     = "gitopskey"
+  default     = "newkeypair"
 }
 
 variable "instance_name" {
@@ -64,4 +64,4 @@ variable "instance_name" {
   type        = string
   default     = "Jumphost-server"
 }
-#
+
